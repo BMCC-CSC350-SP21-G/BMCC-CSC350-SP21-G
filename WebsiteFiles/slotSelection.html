@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laundry Room SignUp</title>
+	<style>
+		#calendarButton {
+			background-color: yellowgreen;
+			color: white;
+			float: right;
+			padding: 5px 50px;
+			cursor: pointer;
+		}
+		input[type=date] {
+		 	background-color: yellowgreen;
+  		 	color: white;
+  		 	float: right;
+  		 	padding: 4px 20px;
+ 		 	cursor: pointer;}
+ 		input[type=Submit] {
+		 	background-color: yellowgreen;
+  		 	color: white;
+  		 	float: default;
+  		 	padding: 16px 64px;
+ 		 	cursor: pointer;}
+		table, th, td {
+  			border: 2px solid white;
+  			border-collapse: collapse;
+		}
+		th {background-color: darkorange;}
+		th, td {
+			color: white;
+  			padding: 10px;
+  			text-align: left;
+  			font-size: 20px;    
+		}
+		body {background-color: dimgray;}
+		h1, h2 {color: yellowgreen; }
+	</style>
+</head>
+<body>
+	<h1 style="font-size: 50px;">Laundry Room SignUp</h1>
+	<h2 style="font-size: 20px;">Please review the available slots below and click on the button to sign up. Thank You!</h2>
+	<form action="submitInfo.html" method="post">
+		<table style="width:70%">
+ 			<tr>
+    			<th>Date (mm/dd/yy)</th>
+    			<th>Available Slots <input type="date" name="date"></th>
+  			</tr>
+  			<tr>
+    			<td>MONDAY</td>
+    			<td>
+    				<!-- <p>12AM - 3AM <button class="editbtn">Sign up</button> </p> -->
+					<p>12AM - 3 AM<input type="Submit" id="calendarButton" value="Sign up"> </p>
+    				<p>3AM - 6AM  <input type="Submit" id="calendarButton" value="Sign up"> </p>
+    				<p>6AM - 9AM  <input type="Submit" id="calendarButton" value="Sign up"> </p>
+    				<p>6AM - 12PM <input type="Submit" id="calendarButton" value="Sign up"> </p>
+    				<p>12PM - 3PM <input type="Submit" id="calendarButton" value="Sign up"> </p>
+    				<p>3PMM - 6PM <input type="Submit" id="calendarButton" value="Sign up"> </p>
+    				<p>6PM - 12AM <input type="Submit" id="calendarButton" value="Sign up"> </p>
+    			</td>
+    		<tr>
+    			<td>TUESDAY</td>
+    			<td>
+    				<p>12AM - 3AM</p>
+    				<p>3AM - 6AM</p>
+    				<p>6AM - 9AM</p>
+    				<p>6AM - 12PM</p>
+    				<p>12PM - 3PM</p>
+    				<p>3PMM - 6PM</p>
+    				<p>6PM - 12AM</p>
+    			</td>
+    		<tr>
+    			<td>WENESDAY</td>
+    			<td>
+    				<p>12AM - 3AM</p>
+    				<p>3AM - 6AM</p>
+    				<p>6AM - 9AM</p>
+    				<p>6AM - 12PM</p>
+    				<p>12PM - 3PM</p>
+    				<p>3PMM - 6PM</p>
+    				<p>6PM - 12AM</p>
+    			</td>
+    		<tr>
+    			<td>THURSDAY</td>
+    			<td>
+    				<p>12AM - 3AM</p>
+    				<p>3AM - 6AM</p>
+    				<p>6AM - 9AM</p>
+    				<p>6AM - 12PM</p>
+    				<p>12PM - 3PM</p>
+    				<p>3PMM - 6PM</p>
+    				<p>6PM - 12AM</p>
+    			</td>
+    		<tr>
+    			<td>FRIDAY</td>
+    			<td>
+    				<p>12AM - 3AM</p>
+    				<p>3AM - 6AM</p>
+    				<p>6AM - 9AM</p>
+    				<p>6AM - 12PM</p>
+    				<p>12PM - 3PM</p>
+    				<p>3PMM - 6PM</p>
+    				<p>6PM - 12AM</p>
+    			</td>
+    		<tr>
+    			<td>SATURDAY</td>
+    			<td>
+    				<p>12AM - 3AM</p>
+    				<p>3AM - 6AM</p>
+    				<p>6AM - 9AM</p>
+    				<p>6AM - 12PM</p>
+    				<p>12PM - 3PM</p>
+    				<p>3PMM - 6PM</p>
+    				<p>6PM - 12AM</p>
+    			</td>
+    		<tr>
+    			<td>SUNDAY</td>
+    			<td>
+    				<p>12AM - 3AM</p>
+    				<p>3AM - 6AM</p>
+    				<p>6AM - 9AM</p>
+    				<p>6AM - 12PM</p>
+    				<p>12PM - 3PM</p>
+    				<p>3PMM - 6PM</p>
+    				<p>6PM - 12AM</p>
+    			</td>
+  			</tr>
+		</table>
+		<input type="Submit" value="SUBMIT">
+	</form>
+
+</body>
+</html>
