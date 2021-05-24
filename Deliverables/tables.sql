@@ -1,8 +1,8 @@
 create schema login;
 
 create table Users(
-Username varchar(45), 
-Password varchar(45));
+UserId varchar(16), 
+Password varchar(16));
 
 -- for first timers
 -- users (kok, kim, king)
