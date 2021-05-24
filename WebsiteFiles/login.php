@@ -17,11 +17,11 @@
 			$sql = "SELECT * FROM LOGIN.USERS WHERE UserId = '".$uid."'";
 
 			$result = mysqli_query($conn, $sql);
-			if (mysqli_num_rows($result) > 0)
+			if (!$result)
 			{
 				$sql = $sql."and Password = '".$pwd."'";
 				$result = mysqli_query($conn, $sql);
-				if (mysqli_num_rows($result) > 0)
+				if (!$result)
 				{
 					header('location:slotSelection.html');
 					echo "<p> LOGIN SUCCESSFUL </p>";
